@@ -4,27 +4,67 @@
     "description": "Teste os seus conhecimentos sobre a Marvel e vamos ver quantas perguntas você irá acertar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://img.quizur.com/f/img5c05b3749df0d5.68065314.jpg?lastEdited=1543877497",
+        "title": "Quem ficou no time Stark, em Capitão América: Guerra Civil?",
+        "description": "Essa é para aquecer!!",
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Dr. Estranho, Bucky, Rocket, Falcão, Hulk, Viúva Negra e Gavião Arqueiro",
+          "Gamora, Wanda, Pantera Negra, e Wolverine.",
+          "Capitão América, Hulk, Peter Quill, Homem Aranha e Visão.",
+          "Homem de Ferro, Máquina de Combate, Homem Aranha, Visão, Viúva Negra e Pantera Negra."
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
+        "image": "https://img.quizur.com/f/img5e9a111d7998a9.87298075.jpg?lastEdited=1587155234",
+        "title": "Como a Marvel se chamava?",
+        "description": "",
+        "answer": 2,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Marvely Comics",
+           "Timely Comics",
+           "Timolye Comics",
+           "Timely Comics"
+
+        ]
+      },
+      {
+        "image": "https://img.quizur.com/f/img5e9a11c0a3c4d9.15591264.jpg?lastEdited=1587155397",
+        "title": "Qual foi o primeiro super heroi criado pela Marvel?",
+        "description": "",
+        "answer": 3,
+        "alternatives": [
+          "Namor",
+          "Homem Aranha",
+          "Capitão América",
+          "Mulher invisível"
+        ]
+      },
+      {
+        "image": "https://img.quizur.com/f/img5f8aeb10a65a12.64022664.jpg?lastEdited=1602939690",
+        "title": "Qual foi o primeiro filme?",
+        "description": "",
+        "answer": 4,
+        "alternatives": [
+          "Capitão América: O primeiro vingador",
+          "Vingadores: The Avengers",
+          "O incrível Hulk",
+          "Homem de Ferro"
+        ]
+      },
+      {
+        "image": "https://img.quizur.com/f/img6001b4bbecd149.33075937.jpg?lastEdited=1610724546",
+        "title": "Quem foi o fundador da Marvel?",
+        "description": "Essa é a ultima",
+        "answer": 5,
+        "alternatives": [
+          "Jack Kirby",
+          "Martin Goodman",
+          "Stan Lee",
+          "Joe Simon "
         ]
       }
+
     ],
     "external": [
       ""
