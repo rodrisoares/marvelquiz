@@ -7,7 +7,7 @@
         "image": "https://img.quizur.com/f/img5c05b3749df0d5.68065314.jpg?lastEdited=1543877497",
         "title": "Quem ficou no time Stark, em Capitão América: Guerra Civil?",
         "description": "Essa é para aquecer!!",
-        "answer": 1,
+        "answer": 3,
         "alternatives": [
           "Dr. Estranho, Bucky, Rocket, Falcão, Hulk, Viúva Negra e Gavião Arqueiro",
           "Gamora, Wanda, Pantera Negra, e Wolverine.",
@@ -19,12 +19,12 @@
         "image": "https://img.quizur.com/f/img5e9a111d7998a9.87298075.jpg?lastEdited=1587155234",
         "title": "Como a Marvel se chamava?",
         "description": "",
-        "answer": 2,
+        "answer": 1,
         "alternatives": [
            "Marvely Comics",
            "Timely Comics",
            "Timolye Comics",
-           "Timely Comics"
+           "Marvel super heros"
 
         ]
       },
@@ -32,7 +32,7 @@
         "image": "https://img.quizur.com/f/img5e9a11c0a3c4d9.15591264.jpg?lastEdited=1587155397",
         "title": "Qual foi o primeiro super heroi criado pela Marvel?",
         "description": "",
-        "answer": 3,
+        "answer": 0,
         "alternatives": [
           "Namor",
           "Homem Aranha",
@@ -44,7 +44,7 @@
         "image": "https://img.quizur.com/f/img5f8aeb10a65a12.64022664.jpg?lastEdited=1602939690",
         "title": "Qual foi o primeiro filme?",
         "description": "",
-        "answer": 4,
+        "answer": 3,
         "alternatives": [
           "Capitão América: O primeiro vingador",
           "Vingadores: The Avengers",
@@ -55,8 +55,8 @@
       {
         "image": "https://img.quizur.com/f/img6001b4bbecd149.33075937.jpg?lastEdited=1610724546",
         "title": "Quem foi o fundador da Marvel?",
-        "description": "Essa é a ultima",
-        "answer": 5,
+        "description": "",
+        "answer": 1,
         "alternatives": [
           "Jack Kirby",
           "Martin Goodman",
@@ -66,18 +66,19 @@
       }
 
     ],
-    "external": [
-      ""
-    ],
-    "theme": {
+    "external": [""],
+  "theme": {
       "colors": {
-        "primary": "#0d47a1",
+        "primary": "#0d47a1",   
         "secondary": "#29b6f6",
         "mainBg": "#171B35",
         "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
+        "wrong": "#FF4040",
         "success": "#4CAF50"
       },
       "borderRadius": "4px"
     }
   }
+
+ 
+ 
