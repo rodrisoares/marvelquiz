@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Head from 'next/head';
+import {motion} from 'framer-motion';
 import { useRouter } from 'next/router';
 
 import db from '../db.json';
@@ -34,7 +35,20 @@ export default function Home() {
       </Head>
       <QuizContainer>
         <QuizLogo />
-        <Widget>
+        <Widget
+          as={motion.section}
+          transition={{
+            delay:0,
+            duration: 0.5
+          }}
+          variants={{
+            show: {opacity: 1, y:'0'},
+            hidden:{ opacity: 0, y:'100%'},
+          }}
+          initial="hidden"
+          animate="show"
+        >
+
           <Widget.Header>
             <h1>{db.title}</h1>
           </Widget.Header>
@@ -59,14 +73,58 @@ export default function Home() {
           </Widget.Content>
         </Widget>
 
-        <Widget>
+        <Widget
+         as={motion.section}
+         transition={{
+           delay:0.5,
+           duration: 0.5
+         }}
+         variants={{
+           show: {opacity: 1},
+           hidden:{ opacity: 0},
+         }}
+         initial="hidden"
+         animate="show"
+        >
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
-            <p>xxxxxxxxxxxxxx</p>
+            <p>Dá uma olhada nos Quizes que a comunidade fez durante a Imersão React Next.js da Alura:</p>
+            
+            <Widget.Topic
+              href="https://quiz-react.brenoha.vercel.app/"
+              target="_blank"
+            >
+              Quiz Star Wars
+            </Widget.Topic>
+            <Widget.Topic
+              href="https://aluraquiz-coffee.leonardot07.vercel.app/"
+              target="_blank"
+            >
+              Quiz Coffee
+            </Widget.Topic>
+            <Widget.Topic
+              href="https://aluraquiz-halloween.lucaskuhn.vercel.app/"
+              target="_blank"
+            >
+              Quiz Halloween
+            </Widget.Topic>
+          
           </Widget.Content>
         </Widget>
-        <Footer />
+        <Footer
+         as={motion.footer}
+         transition={{
+           delay:0.5,
+           duration: 0.5
+         }}
+         variants={{
+           show: {opacity: 1, y:'0'},
+           hidden:{ opacity: 0, y:'100%'},
+         }}
+         initial="hidden"
+         animate="show"
+        />
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/rodrisoares" />
     </QuizBackground>
