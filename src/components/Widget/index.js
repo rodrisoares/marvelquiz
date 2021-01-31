@@ -11,13 +11,13 @@ const Widget = styled.div`
   h1, h2, h3{
     font-size: 16px;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.3em;
     margin-bottom:0;
   }
   p{
     font-size: 14px;
     font-weight: 400;
-    line-height: 1;
+    line-height: 1.5em;
   }
 `;
 

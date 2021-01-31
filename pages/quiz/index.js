@@ -4,9 +4,11 @@ import db from '../../db.json';
 import Widget from '../../src/components/Widget';
 import QuizLogo from '../../src/components/QuizLogo';
 import QuizBackground from '../../src/components/QuizBackground';
+import LoadingWidget from '../../src/components/LoadingWidget';
 import QuizContainer from '../../src/components/QuizContainer';
 import AlternativesForm from '../../src/components/AlternativesForm';
 import Button from '../../src/components/Button';
+
 
 function ResultWidget({ results }) {
   return (
@@ -36,20 +38,6 @@ function ResultWidget({ results }) {
             </li>
           ))}
         </ul>
-      </Widget.Content>
-    </Widget>
-  );
-}
-
-function LoadingWidget() {
-  return (
-    <Widget>
-      <Widget.Header>
-        Carregando...
-      </Widget.Header>
-
-      <Widget.Content>
-        [Loading]
       </Widget.Content>
     </Widget>
   );
