@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="src/assets/image/banner.jpg" with="800" height="200"/>
+	<img src="src/assets/image/banner.jpg" with="2000" height="500"/>
 </div>
 
 ## :dart: Objetivo
